@@ -31,7 +31,7 @@ Build a machine learning model that is able to predict churning customers based 
 * **Telecom Churn Case Study.ipynb** - Jupyter Notebook for Telecom Churn Case Study (Language : Python)
 * **train.csv** - Data Set for training model
 * **test.csv** - Test data for prediction using trained model
-* **solution.csv** - Predicted Result from Test data
+* **Submission.csv** - Predicted Result from Test data
 * **sample.csv** - Expected Result from Test data
 * **data_dictionary.csv** - Data Dictionary
 * **README.md** - Readme file
