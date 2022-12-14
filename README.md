@@ -29,9 +29,10 @@ Build a machine learning model that is able to predict churning customers based 
 
 ### Project Contents
 * **Telecom Churn Case Study.ipynb** - Jupyter Notebook for Telecom Churn Case Study (Language : Python)
-* **train.csv** - Data Set for training
-* **test.csv** - Test data for predicted results
-* **solution.csv** - Prediction Result
+* **train.csv** - Data Set for training model
+* **test.csv** - Test data for prediction using trained model
+* **solution.csv** - Predicted Result from Test data
+* **sample.csv** - Expected Result from Test data
 * **data_dictionary.csv** - Data Dictionary
 * **README.md** - Readme file
 
@@ -40,9 +41,21 @@ Build a machine learning model that is able to predict churning customers based 
 Any business analytics problem can be solved using **CR**oss **I**ndustry **S**tandard **P**rocess for **D**ata **M**ining (CRISP-DM) model.
 * Data set was analysed and prepared for EDA. EDA was done on data set to understand the relationship between variables.
 * Various machine learning models was built with and without PCA to predict if a customer will churn or not
+* Models performed well without PCA.
+* GBoost and XGBoost without PCA outperformed all models
+* XGBoost was selected for final prediction
 
 #### Recommendation
-Random Forest gives good prediction results without PCA
+XGBoost without PCA gives good prediction results
+
+#### Top 5 features
+* total_ic_mou_8 - 0.1745
+* loc_ic_mou_8 - 0.0863
+* roam_og_mou_8 - 0.0748
+* av_rech_amt_data_8 - 0.0279
+* monthly_2g_6 - 0.0218
+
+These features helps in realizing if a customer will churn or not.
 
 
 ### Software and Library Versions
